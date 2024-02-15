@@ -36,6 +36,7 @@ array_hotels = [
 counter = 0
 
 while True:
+        time.sleep(timer)
         menu_dropdown = webDriver.find_element(By.XPATH,"/html/body/jhi-main/climber-shell/climber-header/nav[2]/div/div[2]/climber-dropdown-v2")
         menu_dropdown.click()
 
